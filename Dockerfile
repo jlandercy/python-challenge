@@ -7,7 +7,7 @@ RUN apt-get update && \
     python3-dev libpq-dev build-essential
 
 RUN python3 -m pip install --upgrade pip && \
-    python3 -m pip install setuptools virtualenv
+    python3 -m pip install --upgrade setuptools virtualenv
 
 COPY ./configuration ./configuration
 RUN python3 -m pip install -r ./configuration/requirements.txt
