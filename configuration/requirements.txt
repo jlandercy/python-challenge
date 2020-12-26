@@ -34,6 +34,7 @@ nbsphinx==0.8.0
 nest-asyncio==1.4.3
 packaging==20.8
 pandocfilters==1.4.3
+pandoctools>=2.8.0.5
 parso==0.8.1
 pickleshare==0.7.5
 prompt-toolkit==3.0.8
