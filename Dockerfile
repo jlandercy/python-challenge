@@ -4,7 +4,8 @@ LABEL maintainer="jlandercy@gmail.com"
 
 RUN apt-get update && \
     apt-get install -y \
-    python3-dev libpq-dev build-essential
+    make pandoc
+#    python3-dev libpq-dev build-essential \
 
 RUN python3 -m pip install --upgrade pip && \
     python3 -m pip install --upgrade setuptools virtualenv
