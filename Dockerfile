@@ -4,7 +4,7 @@ LABEL maintainer="jlandercy@gmail.com"
 
 RUN apt-get update && \
     apt-get install -y \
-    make pandoc
+    make git pandoc
 #    python3-dev libpq-dev build-essential \
 
 RUN python3 -m pip install --upgrade pip && \
